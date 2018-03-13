@@ -33,7 +33,7 @@ apis:
   tags: Assignments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/assignments/master/_listings/box/task-assignments-task-assignment-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/assignments/master/_listings/box/task-assignments-task-assignment-id-delete.md
 x-common:
 - type: x-base
   url: https://api.box.com/
