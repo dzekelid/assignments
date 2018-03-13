@@ -26,7 +26,7 @@ apis:
   tags: Assignments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/assignments/master/_listings/azure-resource-manager/scope-providers-microsoft-authorization-policyassignments-policyassignmentname-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/assignments/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-authorization-policyassignments-get.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
