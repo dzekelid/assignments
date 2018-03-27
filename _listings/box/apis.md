@@ -33,7 +33,7 @@ apis:
   tags: Assignments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-retention-policy-assignment-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policies-id-assignments-get.md
 x-common:
 - type: x-base
   url: https://api.box.com/
