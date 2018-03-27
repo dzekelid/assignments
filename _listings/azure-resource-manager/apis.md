@@ -26,7 +26,7 @@ apis:
   tags: Assignments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/azure-resource-manager/policyassignmentid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/azure-resource-manager/policyassignmentid-get.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
