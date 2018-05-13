@@ -12,9 +12,9 @@ tags:
 - Microsoft
 - Links
 - Deployment
-created: "2018-05-12"
-modified: "2018-05-12"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/azure-resource-manager/apis.md
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/azure-resource-manager/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Resource Manager API
@@ -26,10 +26,20 @@ apis:
   tags: Assignments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/azure-resource-manager/scope-providers-microsoft-authorization-policyassignments-policyassignmentname-delete.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/azure-resource-manager/scope-providers-microsoft-authorization-policyassignments-policyassignmentname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/azure-resource-manager/policyassignmentid-get.md
+- name: Azure Resource Manager API
+  description: Azure Resource Manager enables you to deploy and manage the infrastructure
+    for your Azure solutions
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
+  humanURL: ""
+  baseURL: ://management.azure.com//
+  tags: Assignments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/azure-resource-manager/scope-providers-microsoft-authorization-policyassignments-policyassignmentname-put.md
 x-common:
+- type: x-website
+  url: https://docs.microsoft.com/en-us/rest/api/resources/
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
 include: []
