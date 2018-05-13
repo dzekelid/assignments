@@ -34,17 +34,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-assignment-id-delete.md
-- name: Box Get Assignments
-  description: Retrieves all of the assignments for a given task.
+- name: Box Create Task Assignment
+  description: Used to assign a task to a single user. There can be multiple assignments
+    on a given task.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Assignments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/tasks-task-id-assignments-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/tasks-task-id-assignments-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post.md
 x-common:
 - type: x-base
   url: https://api.box.com/
