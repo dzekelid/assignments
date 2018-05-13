@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/akamai/config-media-security-v1-security-live-policyid-policyassignments-revert-put.md
-- name: Akamai API Get a Policy Assignment
-  description: Get a Policy Assignment
+- name: Akamai API Promote a Policy Assignment
+  description: Promote a Policy Assignment
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Assignments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/akamai/config-media-security-v1-security-live-policyid-policyassignments-environment-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/akamai/config-media-security-v1-security-live-policyid-policyassignments-promote-put.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
