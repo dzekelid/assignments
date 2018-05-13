@@ -16,7 +16,7 @@ paths:
       description: Promote a Policy Assignment
       operationId: configmediasecurityv1securitylivepolicyidpolicyassignmentspromote
       parameters:
-      - in: Number
+      - in: query
         name: policyID
         description: The ID of the policy to fetch
         type: string
