@@ -16,11 +16,11 @@ paths:
       description: Get a Policy Assignment
       operationId: configmediasecurityv1securitylivepolicyidpolicyassignmentsenvironment
       parameters:
-      - in: Enumeration
+      - in: query
         name: environment
         description: The environment
         type: string
-      - in: Number
+      - in: query
         name: policyID
         description: The ID of the policy to fetch
         type: string
