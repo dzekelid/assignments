@@ -20,9 +20,9 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-27"
-modified: "2018-03-27"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/akamai/apis.yaml
+created: "2018-05-12"
+modified: "2018-05-12"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/akamai/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Akamai API
@@ -33,7 +33,7 @@ apis:
   tags: Assignments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/akamai/config-media-security-v1-security-live-policyid-policyassignments-revert-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/akamai/config-media-security-v1-security-live-policyid-policyassignments-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
