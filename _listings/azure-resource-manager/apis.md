@@ -37,17 +37,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/azure-resource-manager/scope-providers-microsoft-authorization-policyassignments-policyassignmentname-put.md
-- name: Azure Resource Manager API Policy Assignments Delete
-  description: Deletes a policy assignment.
+- name: Azure Resource Manager API Creates a policy assignment.
+  description: Policy assignments are inherited by child resources. For example, when
+    you apply a policy to a resource group that policy is assigned to all resources
+    in the group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
   humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
   baseURL: http:://management.azure.com//
   tags: Assignments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/azure-resource-manager/scope-providers-microsoft-authorization-policyassignments-policyassignmentname-delete.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/azure-resource-manager/scope-providers-microsoft-authorization-policyassignments-policyassignmentname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/azure-resource-manager/scope-providers-microsoft-authorization-policyassignments-policyassignmentname-put.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
