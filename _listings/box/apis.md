@@ -34,17 +34,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-assignment-id-delete.md
-- name: Box Delete Task Assignment
-  description: Deletes a specific task assignment.
+- name: Box Get Retention Policy Assignments
+  description: Returns a list of all retention policy assignments associated with
+    a specified retention policy.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Assignments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-task-assignment-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policies-policy-id-assignments-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-task-assignment-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policies-policy-id-assignments-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
