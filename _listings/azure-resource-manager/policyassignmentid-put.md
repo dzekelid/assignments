@@ -1,10 +1,13 @@
 ---
 swagger: "2.0"
 info:
-  title: SubscriptionClient
-  description: All resource groups and resources exist within subscriptions. These
-    operation enable you get information about your subscriptions and tenants. A tenant
-    is a dedicated instance of Azure Active Directory (Azure AD) for your organization.
+  title: Azure Resource Manager API Creates a policy assignment by ID.
+  description: Policy assignments are inherited by child resources. For example, when
+    you apply a policy to a resource group that policy is assigned to all resources
+    in the group. When providing a scope for the assigment, use '/subscriptions/{subscription-id}/'
+    for subscriptions, '/subscriptions/{subscription-id}/resourceGroups/{resource-group-name}'
+    for resource groups, and '/subscriptions/{subscription-id}/resourceGroups/{resource-group-name}/providers/{resource-provider-namespace}/{resource-type}/{resource-name}'
+    for resources.
   version: 1.0.0
 host: management.azure.com
 basePath: /
