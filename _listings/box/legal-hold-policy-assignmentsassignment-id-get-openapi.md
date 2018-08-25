@@ -236,6 +236,26 @@ paths:
       - Policy
       - Assignments
       - Assignment
+    delete:
+      summary: Delete Legal Hold Policy Assignment
+      description: Sends request to delete an existing Assignment. Note that this
+        is an asynchronous process - the Assignment will not be fully deleted yet
+        when the response comes back.
+      operationId: deleteLegalHoldPolicyAssignment
+      x-api-path-slug: legal-hold-policy-assignmentsassignment-id-delete
+      parameters:
+      - in: path
+        name: ASSIGNMENT_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Legal
+      - Hold
+      - Policy
+      - Assignments
+      - Assignment
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

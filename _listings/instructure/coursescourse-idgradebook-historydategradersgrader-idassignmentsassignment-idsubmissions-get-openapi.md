@@ -1001,6 +1001,154 @@ paths:
       - Assignment
       - Id
       - Submissions
+  /courses/{course_id}/assignment_groups:
+    get:
+      summary: List assignment groups
+      description: List assignment groups.
+      operationId: list-assignment-groups
+      x-api-path-slug: coursescourse-idassignment-groups-get
+      parameters:
+      - in: query
+        name: grading_period_id
+        description: The id of the grading period in which assignment groups are being
+          requestedn(Requires the Multiple Grading Periods feature turned on
+      - in: query
+        name: include[]
+        description: Associations to include with the group
+      - in: query
+        name: override_assignment_dates
+        description: Apply assignment overrides for each assignment, defaults to true
+      - in: query
+        name: scope_assignments_to_student
+        description: If true, all assignments returned will apply to the current user
+          in thenspecified grading period
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Assignment
+      - Groups
+    post:
+      summary: Create an Assignment Group
+      description: Create an assignment group.
+      operationId: create-an-assignment-group
+      x-api-path-slug: coursescourse-idassignment-groups-post
+      parameters:
+      - in: query
+        name: group_weight
+        description: The percent of the total grade that this assignment group represents
+      - in: query
+        name: name
+        description: The assignment group&#39;s name
+      - in: query
+        name: position
+        description: The position of this assignment group in relation to the other
+          assignmentngroups
+      - in: query
+        name: rules
+        description: The grading rules that are applied within this assignment group
+          See thenAssignment Group object definition for format
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Assignment
+      - Groups
+  /courses/{course_id}/assignment_groups/assignment_group_id:
+    delete:
+      summary: Destroy an Assignment Group
+      description: Destroy an assignment group.
+      operationId: destroy-an-assignment-group
+      x-api-path-slug: coursescourse-idassignment-groupsassignment-group-id-delete
+      parameters:
+      - in: query
+        name: move_assignments_to
+        description: The ID of an active Assignment Group to which the assignments
+          that arencurrently assigned to the destroyed Assignment Group will be assigned
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Assignment
+      - Groups
+      - Assignment
+      - Group
+      - Id
+    get:
+      summary: Get an Assignment Group
+      description: Get an assignment group.
+      operationId: get-an-assignment-group
+      x-api-path-slug: coursescourse-idassignment-groupsassignment-group-id-get
+      parameters:
+      - in: query
+        name: grading_period_id
+        description: The id of the grading period in which assignment groups are being
+          requestedn(Requires the Multiple Grading Periods account feature turned
+          on)
+      - in: query
+        name: include[]
+        description: Associations to include with the group
+      - in: query
+        name: override_assignment_dates
+        description: Apply assignment overrides for each assignment, defaults to true
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Assignment
+      - Groups
+      - Assignment
+      - Group
+      - Id
+    put:
+      summary: Edit an Assignment Group
+      description: Edit an assignment group.
+      operationId: edit-an-assignment-group
+      x-api-path-slug: coursescourse-idassignment-groupsassignment-group-id-put
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Assignment
+      - Groups
+      - Assignment
+      - Group
+      - Id
+  /courses/{course_id}/quizzes/assignment_overrides:
+    get:
+      summary: Retrieve assignment-overridden dates for quizzes
+      description: Retrieve assignment-overridden dates for quizzes.
+      operationId: retrieve-assignmentoverridden-dates-for-quizzes
+      x-api-path-slug: coursescourse-idquizzesassignment-overrides-get
+      parameters:
+      - in: query
+        name: quiz_assignment_overrides[0][quiz_ids][]
+        description: An array of quiz IDs
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Quizzes
+      - Assignment
+      - Overrides
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -351,6 +351,25 @@ paths:
       - User
       - Id
       - Read
+    put:
+      summary: Mark submission as read
+      description: Mark submission as read.
+      operationId: mark-submission-as-read
+      x-api-path-slug: sectionssection-idassignmentsassignment-idsubmissionsuser-idread-put
+      responses:
+        200:
+          description: OK
+      tags:
+      - Sections
+      - Section
+      - Id
+      - Assignments
+      - Assignment
+      - Id
+      - Submissions
+      - User
+      - Id
+      - Read
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -331,6 +331,45 @@ paths:
       - User
       - Id
       - Files
+  /sections/{section_id}/assignments/assignment_id/submissions/{user_id}/read:
+    delete:
+      summary: Mark submission as unread
+      description: Mark submission as unread.
+      operationId: mark-submission-as-unread
+      x-api-path-slug: sectionssection-idassignmentsassignment-idsubmissionsuser-idread-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Sections
+      - Section
+      - Id
+      - Assignments
+      - Assignment
+      - Id
+      - Submissions
+      - User
+      - Id
+      - Read
+    put:
+      summary: Mark submission as read
+      description: Mark submission as read.
+      operationId: mark-submission-as-read
+      x-api-path-slug: sectionssection-idassignmentsassignment-idsubmissionsuser-idread-put
+      responses:
+        200:
+          description: OK
+      tags:
+      - Sections
+      - Section
+      - Id
+      - Assignments
+      - Assignment
+      - Id
+      - Submissions
+      - User
+      - Id
+      - Read
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

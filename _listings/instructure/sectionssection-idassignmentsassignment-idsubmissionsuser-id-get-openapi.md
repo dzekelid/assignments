@@ -262,6 +262,114 @@ paths:
       - Submissions
       - User
       - Id
+    put:
+      summary: Grade or comment on a submission
+      description: Grade or comment on a submission.
+      operationId: grade-or-comment-on-a-submission
+      x-api-path-slug: sectionssection-idassignmentsassignment-idsubmissionsuser-id-put
+      parameters:
+      - in: query
+        name: comment[file_ids][]
+        description: Attach files to this comment that were previously uploaded using
+          thenSubmission Comment API&#39;s files action
+      - in: query
+        name: comment[group_comment]
+        description: Whether or not this comment should be sent to the entire group
+          (defaults tonfalse)
+      - in: query
+        name: comment[media_comment_id]
+        description: Add an audio/video comment to the submission
+      - in: query
+        name: comment[media_comment_type]
+        description: The type of media comment being added
+      - in: query
+        name: comment[text_comment]
+        description: Add a textual comment to the submission
+      - in: query
+        name: include[visibility]
+        description: Whether this assignment is visible to the owner of the submission
+      - in: query
+        name: rubric_assessment
+        description: Assign a rubric assessment to this assignment submission
+      - in: query
+        name: submission[excuse]
+        description: Sets the u201cexcusedu201d status of an assignment
+      - in: query
+        name: submission[posted_grade]
+        description: Assign a score to the submission, updating both the u201cscoreu201d
+          and u201cgradeu201dnfields on the submission record
+      responses:
+        200:
+          description: OK
+      tags:
+      - Sections
+      - Section
+      - Id
+      - Assignments
+      - Assignment
+      - Id
+      - Submissions
+      - User
+      - Id
+  /sections/{section_id}/assignments/assignment_id/submissions/{user_id}/files:
+    post:
+      summary: Upload a file
+      description: Upload a file.
+      operationId: upload-a-file
+      x-api-path-slug: sectionssection-idassignmentsassignment-idsubmissionsuser-idfiles-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Sections
+      - Section
+      - Id
+      - Assignments
+      - Assignment
+      - Id
+      - Submissions
+      - User
+      - Id
+      - Files
+  /sections/{section_id}/assignments/assignment_id/submissions/{user_id}/read:
+    delete:
+      summary: Mark submission as unread
+      description: Mark submission as unread.
+      operationId: mark-submission-as-unread
+      x-api-path-slug: sectionssection-idassignmentsassignment-idsubmissionsuser-idread-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Sections
+      - Section
+      - Id
+      - Assignments
+      - Assignment
+      - Id
+      - Submissions
+      - User
+      - Id
+      - Read
+    put:
+      summary: Mark submission as read
+      description: Mark submission as read.
+      operationId: mark-submission-as-read
+      x-api-path-slug: sectionssection-idassignmentsassignment-idsubmissionsuser-idread-put
+      responses:
+        200:
+          description: OK
+      tags:
+      - Sections
+      - Section
+      - Id
+      - Assignments
+      - Assignment
+      - Id
+      - Submissions
+      - User
+      - Id
+      - Read
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

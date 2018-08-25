@@ -798,6 +798,357 @@ paths:
       - User
       - Id
       - Read
+    put:
+      summary: Mark submission as read
+      description: Mark submission as read.
+      operationId: mark-submission-as-read
+      x-api-path-slug: coursescourse-idassignmentsassignment-idsubmissionsuser-idread-put
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Assignments
+      - Assignment
+      - Id
+      - Submissions
+      - User
+      - Id
+      - Read
+  /courses/{course_id}/assignments/id:
+    delete:
+      summary: Delete an assignment
+      description: Delete an assignment.
+      operationId: delete-an-assignment
+      x-api-path-slug: coursescourse-idassignmentsid-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Assignments
+      - Id
+    get:
+      summary: Get a single assignment
+      description: Get a single assignment.
+      operationId: get-a-single-assignment
+      x-api-path-slug: coursescourse-idassignmentsid-get
+      parameters:
+      - in: query
+        name: all_dates
+        description: All dates associated with the assignment, if applicable
+      - in: query
+        name: include[]
+        description: Associations to include with the assignment
+      - in: query
+        name: needs_grading_count_by_section
+        description: Split up u201cneeds_grading_countu201d by sections into thenu201cneeds_grading_count_by_sectionu201d
+          key, defaults to false
+      - in: query
+        name: override_assignment_dates
+        description: Apply assignment overrides to the assignment, defaults to true
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Assignments
+      - Id
+    put:
+      summary: Edit an assignment
+      description: Edit an assignment.
+      operationId: edit-an-assignment
+      x-api-path-slug: coursescourse-idassignmentsid-put
+      parameters:
+      - in: query
+        name: assignment[allowed_extensions][]
+        description: 'Allowed extensions if submission_types includes u201conline_uploadu201dnnExample:nnallowed_extensions:
+          [&quot;docx&quot;,&quot;ppt&quot;]'
+      - in: query
+        name: assignment[assignment_group_id]
+        description: The assignment group id to put the assignment in
+      - in: query
+        name: assignment[assignment_overrides][]
+        description: List of overrides for the assignment
+      - in: query
+        name: assignment[automatic_peer_reviews]
+        description: Whether peer reviews will be assigned automatically by Canvas
+          or ifnteachers must manually assign peer reviews
+      - in: query
+        name: assignment[description]
+        description: The assignment&#39;s description, supports HTML
+      - in: query
+        name: assignment[due_at]
+        description: The day/time the assignment is due
+      - in: query
+        name: assignment[external_tool_tag_attributes]
+        description: 'Hash of attributes if submission_types is [u201cexternal_toolu201d]
+          Example:nnexternal_tool_tag_attributes: {n  %r/ url to the external tooln  url:
+          &quot;http://instructure'
+      - in: query
+        name: assignment[grade_group_students_individually]
+        description: If this is a group assignment, teachers have the options to grade
+          studentsnindividually
+      - in: query
+        name: assignment[grading_standard_id]
+        description: The grading standard id to set for the course
+      - in: query
+        name: assignment[grading_type]
+        description: The strategy used for grading the assignment
+      - in: query
+        name: assignment[group_category_id]
+        description: If present, the assignment will become a group assignment assigned
+          to thengroup
+      - in: query
+        name: assignment[integration_data]
+        description: Data related to third party integrations, JSON string required
+      - in: query
+        name: assignment[integration_id]
+        description: Unique ID from third party integrations
+      - in: query
+        name: assignment[lock_at]
+        description: The day/time the assignment is locked after
+      - in: query
+        name: assignment[muted]
+        description: Whether this assignment is muted
+      - in: query
+        name: assignment[name]
+        description: The assignment name
+      - in: query
+        name: assignment[notify_of_update]
+        description: If true, Canvas will send a notification to students in the class
+          notifyingnthem that the content has changed
+      - in: query
+        name: assignment[only_visible_to_overrides]
+        description: Whether this assignment is only visible to overrides (Only useful
+          ifn&#39;differentiated assignments&#39; account setting is on)
+      - in: query
+        name: assignment[peer_reviews]
+        description: If submission_types does not include external_tool,discussion_topic,nonline_quiz,
+          or on_paper, determines whether or not peer reviews will benturned on for
+          the assignment
+      - in: query
+        name: assignment[points_possible]
+        description: The maximum points possible on the assignment
+      - in: query
+        name: assignment[position]
+        description: The position of this assignment in the group when displaying
+          assignmentnlists
+      - in: query
+        name: assignment[published]
+        description: Whether this assignment is published
+      - in: query
+        name: assignment[submission_types][]
+        description: List of supported submission types for the assignment
+      - in: query
+        name: assignment[turnitin_enabled]
+        description: Only applies when the Turnitin plugin is enabled for a course
+          and thensubmission_types array includes u201conline_uploadu201d
+      - in: query
+        name: assignment[turnitin_settings]
+        description: Settings to send along to turnitin
+      - in: query
+        name: assignment[unlock_at]
+        description: The day/time the assignment is unlocked
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Assignments
+      - Id
+  /courses/{course_id}/gradebook_history/date/graders/{grader_id}/assignments/assignment_id/submissions:
+    get:
+      summary: Lists submissions
+      description: Lists submissions.
+      operationId: lists-submissions
+      x-api-path-slug: coursescourse-idgradebook-historydategradersgrader-idassignmentsassignment-idsubmissions-get
+      parameters:
+      - in: query
+        name: assignment_id
+        description: The ID of the assignment for which you want to see submissions
+      - in: query
+        name: course_id
+        description: The id of the contextual course for this API call
+      - in: query
+        name: date
+        description: The date for which you would like to see submissions
+      - in: query
+        name: grader_id
+        description: The ID of the grader for which you want to see submissions
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Gradebook
+      - History
+      - Date
+      - Graders
+      - Grader
+      - Id
+      - Assignments
+      - Assignment
+      - Id
+      - Submissions
+  /courses/{course_id}/assignment_groups:
+    get:
+      summary: List assignment groups
+      description: List assignment groups.
+      operationId: list-assignment-groups
+      x-api-path-slug: coursescourse-idassignment-groups-get
+      parameters:
+      - in: query
+        name: grading_period_id
+        description: The id of the grading period in which assignment groups are being
+          requestedn(Requires the Multiple Grading Periods feature turned on
+      - in: query
+        name: include[]
+        description: Associations to include with the group
+      - in: query
+        name: override_assignment_dates
+        description: Apply assignment overrides for each assignment, defaults to true
+      - in: query
+        name: scope_assignments_to_student
+        description: If true, all assignments returned will apply to the current user
+          in thenspecified grading period
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Assignment
+      - Groups
+    post:
+      summary: Create an Assignment Group
+      description: Create an assignment group.
+      operationId: create-an-assignment-group
+      x-api-path-slug: coursescourse-idassignment-groups-post
+      parameters:
+      - in: query
+        name: group_weight
+        description: The percent of the total grade that this assignment group represents
+      - in: query
+        name: name
+        description: The assignment group&#39;s name
+      - in: query
+        name: position
+        description: The position of this assignment group in relation to the other
+          assignmentngroups
+      - in: query
+        name: rules
+        description: The grading rules that are applied within this assignment group
+          See thenAssignment Group object definition for format
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Assignment
+      - Groups
+  /courses/{course_id}/assignment_groups/assignment_group_id:
+    delete:
+      summary: Destroy an Assignment Group
+      description: Destroy an assignment group.
+      operationId: destroy-an-assignment-group
+      x-api-path-slug: coursescourse-idassignment-groupsassignment-group-id-delete
+      parameters:
+      - in: query
+        name: move_assignments_to
+        description: The ID of an active Assignment Group to which the assignments
+          that arencurrently assigned to the destroyed Assignment Group will be assigned
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Assignment
+      - Groups
+      - Assignment
+      - Group
+      - Id
+    get:
+      summary: Get an Assignment Group
+      description: Get an assignment group.
+      operationId: get-an-assignment-group
+      x-api-path-slug: coursescourse-idassignment-groupsassignment-group-id-get
+      parameters:
+      - in: query
+        name: grading_period_id
+        description: The id of the grading period in which assignment groups are being
+          requestedn(Requires the Multiple Grading Periods account feature turned
+          on)
+      - in: query
+        name: include[]
+        description: Associations to include with the group
+      - in: query
+        name: override_assignment_dates
+        description: Apply assignment overrides for each assignment, defaults to true
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Assignment
+      - Groups
+      - Assignment
+      - Group
+      - Id
+    put:
+      summary: Edit an Assignment Group
+      description: Edit an assignment group.
+      operationId: edit-an-assignment-group
+      x-api-path-slug: coursescourse-idassignment-groupsassignment-group-id-put
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Assignment
+      - Groups
+      - Assignment
+      - Group
+      - Id
+  /courses/{course_id}/quizzes/assignment_overrides:
+    get:
+      summary: Retrieve assignment-overridden dates for quizzes
+      description: Retrieve assignment-overridden dates for quizzes.
+      operationId: retrieve-assignmentoverridden-dates-for-quizzes
+      x-api-path-slug: coursescourse-idquizzesassignment-overrides-get
+      parameters:
+      - in: query
+        name: quiz_assignment_overrides[0][quiz_ids][]
+        description: An array of quiz IDs
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Quizzes
+      - Assignment
+      - Overrides
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

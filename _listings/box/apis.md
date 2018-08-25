@@ -7,151 +7,1139 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jp
 x-kinRank: "9"
 x-alexaRank: "445"
 tags: Assignments
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Box Get Assignments
+- name: Box
   x-api-slug: box
-  description: Retrieves all of the assignments for a given task.
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//tasks/{TASK_ID}/assignments
-  tags: Documents,Tasks, Task, , Assignments
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
-- name: Box Create Task Assignment
+- name: Box
   x-api-slug: box
-  description: Used to assign a task to a single user. There can be multiple assignments
-    on a given task.
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//task_assignments
-  tags: Documents,Task, Assignments
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
-- name: Box Get Task Assignment
+- name: Box
   x-api-slug: box
-  description: Fetches a specific task assignment.
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//task_assignments/{TASK_ASSIGNMENT_ID}
-  tags: Documents,Task, Assignments, Task, Assignment
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
-- name: Box Update Task Assignment
+- name: Box
   x-api-slug: box
-  description: Used to update a task assignment.
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//task_assignments/{TASK_ASSIGNMENT_ID}
-  tags: Documents,Task, Assignments, Task, Assignment
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
-- name: Box Delete Task Assignment
+- name: Box
   x-api-slug: box
-  description: Deletes a specific task assignment.
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//task_assignments/{TASK_ASSIGNMENT_ID}
-  tags: Documents,Task, Assignments, Task, Assignment
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
-- name: Box Get Retention Policy Assignments
+- name: Box
   x-api-slug: box
-  description: Returns a list of all retention policy assignments associated with
-    a specified retention policy.
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//retention_policies/{POLICY_ID}/assignments
-  tags: Documents,Retention, Policies, Policy, , Assignments
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
-- name: Box Create Retention Policy Assignment
+- name: Box
   x-api-slug: box
-  description: Returns a list of all retention policy assignments associated with
-    a specified retention policy.
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//retention_policy_assignments
-  tags: Documents,Retention, Policy, Assignments
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
-- name: Box Get Retention Policy Assignment
+- name: Box
   x-api-slug: box
-  description: Used to retrieve information about a retention policy assignment.
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//retention_policy_assignments/{RETENTION_POLICY_ASSIGNMENT_ID}
-  tags: Documents,Retention, Policy, Assignments, Retention, Policy, Assignment
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
-- name: Box Get Legal hold policy assignments
+- name: Box
   x-api-slug: box
-  description: Get list of assignments for a single Policy.
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//legal_hold_policies/{ID}/assignments
-  tags: Documents,Legal, Hold, Policies, , Assignments
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-openapi.md
-- name: Box Create New Legal Hold Policy Assignment
+- name: Box
   x-api-slug: box
-  description: Create a new Assignment, which will apply the Legal Hold Policy to
-    the target of the Assignment.
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//legal_hold_policy_assignments
-  tags: Documents,Legal, Hold, Policy, Assignments
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-post-openapi.md
-- name: Box Get Legal Hold Policy Assignment
+- name: Box
   x-api-slug: box
-  description: Get details of a single assignment.
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//legal_hold_policy_assignments/{ASSIGNMENT_ID}
-  tags: Documents,Legal, Hold, Policy, Assignments, Assignment
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
-- name: Box Delete Legal Hold Policy Assignment
+- name: Box
   x-api-slug: box
-  description: Sends request to delete an existing Assignment. Note that this is an
-    asynchronous process - the Assignment will not be fully deleted yet when the response
-    comes back.
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//legal_hold_policy_assignments/{ASSIGNMENT_ID}
-  tags: Documents,Legal, Hold, Policy, Assignments, Assignment
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+- name: Box
+  x-api-slug: box
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+- name: Box
+  x-api-slug: box
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+- name: Box
+  x-api-slug: box
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+- name: Box
+  x-api-slug: box
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+- name: Box
+  x-api-slug: box
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+- name: Box
+  x-api-slug: box
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+- name: Box
+  x-api-slug: box
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+- name: Box
+  x-api-slug: box
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+- name: Box
+  x-api-slug: box
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+- name: Box
+  x-api-slug: box
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+- name: Box
+  x-api-slug: box
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+- name: Box
+  x-api-slug: box
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/taskstask-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policiespolicy-idassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policiesidassignments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignments-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/task-assignmentstask-assignment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/retention-policy-assignmentsretention-policy-assignment-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/legal-hold-policy-assignmentsassignment-id-delete-openapi.md
 - name: Box
@@ -165,7 +1153,55 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/openapi.md
+- name: Box Create Task (stream)
+  x-api-slug: box-create-task-stream
+  description: Box is changing how you manage content across your business from simple
+    file sharing to building custom apps.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https:///
+  tags: Assignments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/openapi.md
+- name: Box Get File's Collaborations (stream)
+  x-api-slug: box-get-files-collaborations-stream
+  description: Box is changing how you manage content across your business from simple
+    file sharing to building custom apps.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https:///
+  tags: Assignments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/openapi.md
+- name: Box Pending Collaborations (stream)
+  x-api-slug: box-pending-collaborations-stream
+  description: Box is changing how you manage content across your business from simple
+    file sharing to building custom apps.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https:///
+  tags: Assignments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/openapi.md
+- name: Box User Events, Enterprise Events (stream)
+  x-api-slug: box-user-events-enterprise-events-stream
+  description: Box is changing how you manage content across your business from simple
+    file sharing to building custom apps.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https:///
+  tags: Assignments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/box/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://botify.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://box.stack.network
 - type: x-base
   url: https://api.box.com/
 - type: x-blog
@@ -179,7 +1215,7 @@ x-common:
 - type: x-developer
   url: http://developers.box.com
 - type: x-github
-  url: https://github.com/boxdotnet
+  url: https://github.com/box
 - type: x-pricing
   url: https://developers.box.com/box-platform-pricing/
 - type: x-road-map
