@@ -12,20 +12,12 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Confluence Cloud API
-  x-api-slug: confluence-cloud-api
-  description: Millions of users globally rely on Atlassian products every day for
-    improving software development, project management, collaboration, and code quality.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Assignments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/atlassian/openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
+- name: Jira Cloud REST API - Assign issue
+  x-api-slug: api2issueissueidorkeyassignee-put
+  description: Assigns the issue to the user. Use this resource to assign issues for
+    the users having "Assign Issue" permission, and not having the "Edit Issue" permission.
+    If `name` body parameter is set to "-1" then automatic issue assignee is used.
+    A `name` set to `null` will remove the assignee.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
   humanURL: http://atlassian.com/
   baseURL: https:////
@@ -37,39 +29,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/atlassian/api2issueissueidorkeyassignee-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/atlassian/api2issueissueidorkeyassignee-put-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: Millions of users globally rely on Atlassian products every day for
-    improving software development, project management, collaboration, and code quality.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Assignments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/atlassian/openapi.md
-- name: Jira Service Desk API
-  x-api-slug: jira-service-desk-api
-  description: Millions of users globally rely on Atlassian products every day for
-    improving software development, project management, collaboration, and code quality.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Assignments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/atlassian/openapi.md
-- name: Jira Software Cloud API
-  x-api-slug: jira-software-cloud-api
-  description: Millions of users globally rely on Atlassian products every day for
-    improving software development, project management, collaboration, and code quality.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Assignments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/atlassian/openapi.md
 x-common:
 - type: x-openapi
   url: https://developer.atlassian.com/cloud/jira/platform/swagger.v3.json
