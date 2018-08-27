@@ -16,6 +16,29 @@ produces:
 consumes:
 - application/json
 paths:
+  /audit/grade_change/assignments/{assignment_id}:
+    get:
+      summary: Query by assignment.
+      description: Query by assignment..
+      operationId: query-by-assignment
+      x-api-path-slug: auditgrade-changeassignmentsassignment-id-get
+      parameters:
+      - in: query
+        name: end_time
+        description: The end of the time range from which you want events
+      - in: query
+        name: start_time
+        description: The beginning of the time range from which you want events
+      responses:
+        200:
+          description: OK
+      tags:
+      - Audit
+      - Grade
+      - Change
+      - Assignments
+      - Assignment
+      - Id
   /courses/{course_id}/analytics/assignments:
     get:
       summary: Get course-level assignment data

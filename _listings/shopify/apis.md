@@ -9,11 +9,35 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Assignments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/shopify/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Shopify API - assigning a new default address to a customer
+  x-api-slug: admincustomers3989659651addresses5436816654default-json-put
+  description: Assigning a new default address to a customer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/shopify/admincustomers3989659651addresses5436816654default-json-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/shopify/admincustomers3989659651addresses5436816654default-json-put-openapi.md
+- name: Shopify API - assigning a new default address to a customer
+  x-api-slug: admincustomers3989659651addresses5436816654default-json-put
+  description: Assigning a new default address to a customer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/shopify/admincustomers3989659651addresses5436816654default-json-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/shopify/admincustomers3989659651addresses5436816654default-json-put-openapi.md
 - name: Shopify API - assigning a new default address to a customer
   x-api-slug: admincustomers3989659651addresses5436816654default-json-put
   description: Assigning a new default address to a customer.

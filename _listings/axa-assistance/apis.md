@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-
 x-kinRank: "8"
 x-alexaRank: "2107685"
 tags: Assignments
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/axa-assistance/apis.md
 specificationVersion: "0.14"
 apis:
@@ -90,6 +90,45 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/axa-assistance/servicevexproadsideassignmentsassignment-idcancel-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/axa-assistance/servicevexproadsideassignmentsassignment-idcancel-post-openapi.md
+- name: AXA Assistance - Gets assignment information.
+  x-api-slug: servicevexproadsideassignmentsassignment-id-get
+  description: Gets assignment information.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
+  humanURL: https://www.axa-assistance.com
+  baseURL: https://sandbox.api.axa-assistance.com//
+  tags: Technology, internet, Insurance, API Provider, Profiles, Relative Data, General
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/axa-assistance/servicevexproadsideassignmentsassignment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/axa-assistance/servicevexproadsideassignmentsassignment-id-get-openapi.md
+- name: AXA Assistance - Cancels an existing assignment.
+  x-api-slug: servicevexproadsideassignmentsassignment-idcancel-post
+  description: Cancels an existing assignment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
+  humanURL: https://www.axa-assistance.com
+  baseURL: https://sandbox.api.axa-assistance.com//
+  tags: Technology, internet, Insurance, API Provider, Profiles, Relative Data, General
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/axa-assistance/servicevexproadsideassignmentsassignment-idcancel-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/axa-assistance/servicevexproadsideassignmentsassignment-idcancel-post-openapi.md
+- name: AXA Assistance - Creates new assignment.
+  x-api-slug: servicevexproadsideassignments-post
+  description: Creates new assignment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg
+  humanURL: https://www.axa-assistance.com
+  baseURL: https://sandbox.api.axa-assistance.com//
+  tags: Technology, internet, Insurance, API Provider, Profiles, Relative Data, General
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/axa-assistance/servicevexproadsideassignments-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assignments/master/_listings/axa-assistance/servicevexproadsideassignments-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.xray.api.gallery.streamdata.io
